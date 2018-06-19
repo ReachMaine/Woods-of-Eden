@@ -68,3 +68,8 @@ input[type="submit"] {
 	font-weight: bold;
 	cursor: pointer;
 }
+
+// for chrome,  bakcground images that are attachment scroll
+.tatsu-section.bhgg-transform0 {
+	transform: translateX(0px);
+}

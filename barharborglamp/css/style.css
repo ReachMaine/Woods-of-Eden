@@ -71,6 +71,9 @@ input[type="submit"] {
   font-weight: bold;
   cursor: pointer; }
 
+.tatsu-section.bhgg-transform0 {
+  transform: translateX(0px); }
+
 .wpcf7-form {
   /* .one-half {
     position: relative;
