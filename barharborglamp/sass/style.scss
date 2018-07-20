@@ -19,8 +19,26 @@ Version: 1.2
 }
 /*  header stuff - here */
 
+
 /*** styling of content */
-/*** styling of content */
+// single post  //
+.single-post {
+	.header-hero-section {
+		.hero-section-blog-title {
+			padding-top: 20px;
+			padding-bottom: 30px;
+		}
+	}
+	#content {
+
+		padding-bottom: 0px;
+		#content-wrap {
+			padding-top: 0px!important;
+			padding-bottom: 20px!important;
+		}
+ 	}
+} // end single post
+/*** end styling of content */
 #content.right-sidebar-page {
 	padding-top: 45px;  // small at mobile in media
 	padding-bottom: 45px;

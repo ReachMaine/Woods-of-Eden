@@ -140,7 +140,16 @@ input[type="submit"] {
 /*** slidebar in oshine slidebar is above main content *** */
 /*  header stuff - here */
 /*** styling of content */
-/*** styling of content */
+.single-post .header-hero-section .hero-section-blog-title {
+  padding-top: 20px;
+  padding-bottom: 30px; }
+.single-post #content {
+  padding-bottom: 0px; }
+  .single-post #content #content-wrap {
+    padding-top: 0px !important;
+    padding-bottom: 20px !important; }
+
+/*** end styling of content */
 #content.right-sidebar-page {
   padding-top: 45px;
   padding-bottom: 45px; }
