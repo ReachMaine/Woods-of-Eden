@@ -8,6 +8,35 @@ Version: 1.2
 @import url("../oshin/style.css");
 /* ----------- Colors ---------------------------------- */
 /* ----------- end Colors ----------- */
+/* basic css stuff */
+.reach-responsive-video {
+  position: relative;
+  padding-bottom: 50.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+  margin-bottom: 1em; }
+  .reach-responsive-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+.reach-menu-across.widget_nav_menu.widget {
+  margin-bottom: 0px; }
+  .reach-menu-across.widget_nav_menu.widget ul.menu {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: right;
+    display: flex; }
+    .reach-menu-across.widget_nav_menu.widget ul.menu li:before {
+      content: none; }
+    .reach-menu-across.widget_nav_menu.widget ul.menu li {
+      display: inline-block;
+      margin: auto;
+      padding-left: 0px; }
+
 /* ----------- Typography ------------------------------- */
 i.fa-pull-left {
   float: left;
@@ -158,7 +187,7 @@ input[type="submit"] {
 
 /** footer **/
 #reach-bottom-cta {
-  background-color: rgba(78, 114, 176, 0.22); }
+  background-color: #c2d1c2; }
   #reach-bottom-cta .widget {
     margin-bottom: 0px; }
 

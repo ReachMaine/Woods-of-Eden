@@ -14,3 +14,22 @@
         height: 100%;
 	}
 }
+// styling for menu accross the button in cta
+.reach-menu-across.widget_nav_menu.widget {
+    margin-bottom: 0px;
+    ul.menu {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      text-align: right;
+			display: flex;
+      li:before {
+        content: none;
+      }
+      li {
+        display: inline-block;
+        margin: auto;
+        padding-left: 0px;
+
+      }
+    }
+}
