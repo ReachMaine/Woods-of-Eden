@@ -176,7 +176,14 @@ input[type="submit"] {
   padding-bottom: 0px; }
   .single-post #content #content-wrap {
     padding-top: 0px !important;
-    padding-bottom: 20px !important; }
+    padding-bottom: 0px !important; }
+    .single-post #content #content-wrap article .post-content-wrap {
+      margin-bottom: 0px; }
+    .single-post #content #content-wrap .single-page-atts {
+      border-width: 0px;
+      margin-bottom: 0px;
+      display: none;
+      padding: 0px; }
 
 /*** end styling of content */
 #content.right-sidebar-page {
@@ -187,7 +194,8 @@ input[type="submit"] {
 
 /** footer **/
 #reach-bottom-cta {
-  background-color: #c2d1c2; }
+  border-top: 3px solid #346734;
+  border-bottom: 3px solid #346734; }
   #reach-bottom-cta .widget {
     margin-bottom: 0px; }
 
