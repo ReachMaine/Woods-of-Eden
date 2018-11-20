@@ -185,6 +185,11 @@ input[type="submit"] {
       display: none;
       padding: 0px; }
 
+.tatsu-eq-cols .woe-bed-center .tatsu-column-pad {
+  display: flex;
+  align-items: center;
+  height: 100%; }
+
 /*** end styling of content */
 #content.right-sidebar-page {
   padding-top: 45px;
@@ -198,6 +203,10 @@ input[type="submit"] {
   border-bottom: 3px solid #346734; }
   #reach-bottom-cta .widget {
     margin-bottom: 0px; }
+
+#bottom-widgets {
+  padding-top: 40px;
+  padding-bottom: 40px; }
 
 #footer a.reach-logo {
   color: white; }

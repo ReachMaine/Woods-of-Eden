@@ -51,6 +51,18 @@ Version: 1.2
 		}
  	}
 } // end single post
+// vertically align text in column
+.tatsu-eq-cols { // row content-wrap
+	.woe-bed-center { // column class
+		.tatsu-column-pad {
+			display: flex;
+    	align-items: center;
+    	height: 100%;
+		}
+
+	}
+}
+
 /*** end styling of content */
 #content.right-sidebar-page {
 	padding-top: 45px;  // small at mobile in media
@@ -69,6 +81,10 @@ Version: 1.2
 	.widget {
     margin-bottom: 0px;
 	}
+}
+#bottom-widgets {
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 // footer
 #footer {
