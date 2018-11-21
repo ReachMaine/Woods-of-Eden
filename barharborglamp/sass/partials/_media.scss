@@ -23,6 +23,12 @@
         padding-top: 15px; // vertically center hamberger
       }
     }
+    .mobile-menu {
+      li a {
+        text-align: center;
+        width: 100%;
+      }
+    }
   }
 
 }
