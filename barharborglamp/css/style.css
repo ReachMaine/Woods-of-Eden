@@ -160,10 +160,12 @@ input[type="submit"] {
   .wpcf7-form .one-half.last, .wpcf7-form .one-third.last, .wpcf7-form .two-third.last {
     padding-right: 0px;
     clear: right; }
+  .wpcf7-form span.wpcf7-form-control-wrap.your-message {
+    display: inline !important; }
 
 .wpcf7 .wpcf7-form .wpcf7-response-output.wpcf7-mail-sent-ok {
   color: #000;
-  background-color: #57f14e;
+  background-color: #C2D1C2;
   font-weight: bold; }
 
 /*** slidebar in oshine slidebar is above main content *** */

@@ -70,6 +70,9 @@
       margin-right: 0px!important;
       clear: right;
     } */
+    span.wpcf7-form-control-wrap.your-message {
+      display: inline!important;
+    }
 }
 .wpcf7 .wpcf7-form .wpcf7-response-output.wpcf7-mail-sent-ok {
 	color: $cf7-success-color;
