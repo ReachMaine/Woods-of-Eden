@@ -237,4 +237,10 @@ input[type="submit"] {
 
   #right-sidebar, #left-sidebar {
     margin-top: 0px;
+    margin-bottom: 0px; }
+
+  #bottom-widgets .column-block {
+    margin-bottom: 30px; }
+
+  #bottom-widgets .column-block:empty {
     margin-bottom: 0px; } }

@@ -53,6 +53,13 @@
         margin-top: 0px;
         margin-bottom: 0px;
       }
+      // footer
+      #bottom-widgets .column-block {
+        margin-bottom: 30px;
+      }
+       #bottom-widgets .column-block:empty { // dont have margin to emtpy columns in footer
+          margin-bottom: 0px;
+      }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) { // mobile 480
