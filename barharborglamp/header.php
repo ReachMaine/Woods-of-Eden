@@ -6,14 +6,16 @@
 <!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
 <!--[if gt IE 8]><!-->
 <?php /*
-	28Aug17 - zig add gtm function after opening body tag
+	10Dec18 - zig - remove GTM code
+								- add  pinterest meta tag.
 */ ?>
 <html class="no-js" <?php language_attributes(); ?>> <!--<![endif]-->
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" >
 	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="p:domain_verify" content="a015f399df1b44dd4cb750280fc10b09"/> <?php /* zig */ ?>
 	<?php
 		global $be_themes_data; // Get Backend Options
 		if(isset($be_themes_data['favicon']['url']) && !empty($be_themes_data['favicon']['url']) && $be_themes_data['favicon']['url']) {
