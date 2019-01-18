@@ -37,6 +37,26 @@ Version: 1.2
       margin: auto;
       padding-left: 0px; }
 
+a.woe-green-button {
+  background-color: #346734;
+  color: #ffffff !important;
+  border: 2px solid white;
+  margin: 0px 0px 15px 0px; }
+
+a.woe-green-button:hover {
+  background-color: white;
+  color: #346734 !important;
+  border: 3px solid #346734; }
+
+.woe-airbnb:before {
+  content: "";
+  display: inline-block;
+  background: url(images/airbnb.png) no-repeat;
+  background-size: contain;
+  width: 30px;
+  height: 30px;
+  margin: 0 8px -10px 0; }
+
 /* ----------- Typography ------------------------------- */
 i.fa-pull-left {
   float: left;

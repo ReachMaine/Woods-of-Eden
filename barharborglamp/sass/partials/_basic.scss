@@ -33,3 +33,24 @@
       }
     }
 }
+a.woe-green-button {
+	background-color: $woe-dark-green;
+	color: #ffffff!important ;
+	border: 2px solid white;
+	margin: 0px 0px 15px 0px;
+}
+a.woe-green-button:hover {
+	background-color: rgba(255,255,255,1);
+	color: $woe-dark-green!important; //rgba(42,97,39,1) ;
+	border: 3px solid $woe-dark-green;
+}
+
+.woe-airbnb:before {
+	content: "";
+	display: inline-block;
+	background:  url(images/airbnb.png) no-repeat;
+	background-size: contain;
+	width: 30px;
+	height: 30px;
+	margin: 0 8px -10px 0 ;
+}
