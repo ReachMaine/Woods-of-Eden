@@ -20,7 +20,15 @@ Version: 1.2
 
 }
 /*  header stuff - here */
-
+#header {
+	#header-top-bar {
+		.top-bar-widgets {
+			a {
+				color: white;
+			}
+		}
+	}
+}
 
 /*** styling of content */
 // single post  //
@@ -73,7 +81,7 @@ Version: 1.2
 /** footer **/
 
 // reach-bottom-cta
-#reach-bottom-cta{
+#reach-bottom-cta {
 	//margin-top: 40px;
 	//margin-bottom: 40px;
 	border-top: 3px solid $woe-dark-green;
@@ -82,11 +90,26 @@ Version: 1.2
     margin-bottom: 0px;
 	}
 }
+// footer
 #bottom-widgets {
 	padding-top: 40px;
 	padding-bottom: 40px;
+	ul.menu {
+		li.menu-item:before {
+			content: "";
+		}
+		li.menu-item {
+			a {
+				color: $woe-brown;
+				font-weight: bold;
+				font-size: 1.4em;
+			}
+		}
+
+	}
 }
-// footer
+
+
 #footer {
     a.reach-logo {
     	color: white;

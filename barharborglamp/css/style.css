@@ -193,6 +193,9 @@ input[type="submit"] {
 
 /*** slidebar in oshine slidebar is above main content *** */
 /*  header stuff - here */
+#header #header-top-bar .top-bar-widgets a {
+  color: white; }
+
 /*** styling of content */
 .single-post .header-hero-section .hero-section-blog-title {
   padding-top: 20px;
@@ -232,6 +235,12 @@ input[type="submit"] {
 #bottom-widgets {
   padding-top: 40px;
   padding-bottom: 40px; }
+  #bottom-widgets ul.menu li.menu-item:before {
+    content: ""; }
+  #bottom-widgets ul.menu li.menu-item a {
+    color: #663a37;
+    font-weight: bold;
+    font-size: 1.4em; }
 
 #footer a.reach-logo {
   color: white; }
