@@ -36,6 +36,8 @@ Version: 1.2
       display: inline-block;
       margin: auto;
       padding-left: 0px; }
+    .reach-menu-across.widget_nav_menu.widget ul.menu li:last-child {
+      margin-bottom: auto !important; }
 
 a.woe-green-button {
   background-color: #346734;
